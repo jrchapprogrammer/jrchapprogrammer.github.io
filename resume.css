@@ -17,14 +17,11 @@ a {
   text-decoration-line: none;
 }
 body {
-  background-color: rgb(130, 217, 243);
+  background-color: rgb(255, 255, 255);
   /* display: grid; */
   /* grid-template-areas: */
-    /* "header header header header" */
-    
+  /* "header header header header" */
 }
-
-
 
 /* Header content settings*/
 
@@ -33,8 +30,7 @@ header {
   display: grid;
   grid-gap: 1rem;
   grid-template-columns: repeat(4, 1fr);
-  /* grid-template-rows: repeat(3, .3fr); */
-  grid-template-areas: 
+  grid-template-areas:
     "name name name ."
     "contact1 . . contact3"
     "contact2 . . contact4";
@@ -84,11 +80,11 @@ h3 {
 main {
   display: grid;
   grid-gap: 1rem;
-  grid-template-areas: 
-  "section_summary section_summary section_summary ."
-  "section_techskills section_techskills . ."
-  "section_currentprojects section_currentprojects section_currentprojects section_currentprojects"
-  "section_pastexperience section_pastexperience section_pastexperience section_pastexperience"
+  grid-template-areas:
+    "section_summary section_summary section_summary ."
+    "section_techskills section_techskills . ."
+    "section_currentprojects section_currentprojects section_currentprojects section_currentprojects"
+    "section_pastexperience section_pastexperience section_pastexperience section_pastexperience";
 }
 
 .section_summary {
