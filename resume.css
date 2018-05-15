@@ -102,3 +102,12 @@ main {
 .section_pastexperience {
   grid-area: section_pastexperience;
 }
+
+@media print {
+  @page :left, :right {
+    margin: 0.5in;
+  }
+  footer {
+    display: none;
+  }
+}
